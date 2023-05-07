@@ -1,0 +1,78 @@
+body.signin-body {
+    background-color: #e6f2ff;
+}
+
+.container.signin-container {
+    margin-top: 15%;
+}
+
+.card.signin-card {
+/*    padding: 20px 0px 20px;*/
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba( 0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba( 0, 0, 0, .5);
+}
+ 
+
+img.signin-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+}
+
+.form-group-signin {
+    margin-top: 5%;
+}
+
+.form-check-label-signin {
+    margin-bottom: 1.0rem;
+}
+
+.btn.signin-btn {
+    width: 100%;    
+    background-color: black;
+    color: goldenrod;
+    
+}
+a.createNewAccount {
+    text-align: center;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+.lightSection {
+    background-color: #eceeef;
+    padding: 2em;
+}
+.darkSection {
+    background-color: #b8baba;
+    padding: 2em;
+}
+
+#myBtn {
+  display: none; /* hide the button by default */
+  position: fixed; /* set the button's position to fixed */
+  bottom: 20px; /* position the button 20px from the bottom */
+  right: 30px; /* position the button 30px from the right */
+  z-index: 99; /* set the button's z-index to a high value to ensure it's always on top */
+  font-size: 18px; /* set the font size of the button's text */
+  border: none; /* remove the button's border */
+  outline: none; /* remove the button's outline */
+  background-color: #808080; /* set the button's background color */
+  color: white; /* set the color of the button's text */
+  cursor: pointer; /* set the cursor to a pointer when hovering over the button */
+  padding: 15px; /* add some padding to the button */
+  border-radius: 10px; /* add some border-radius to the button */
+}
+
+#myBtn:hover {
+  background-color: #2980b9; /* set the background color of the button when hovering over it */
+}
+
+
+
